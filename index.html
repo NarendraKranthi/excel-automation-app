@@ -1,0 +1,51 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Excel Automation App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    table {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style></head><body>  <h2>Excel Automation Tool</h2>  <input type="file" id="fileInput" />  <br><button onclick="upload()">Preview Data</button>
+<button onclick="generate()">Generate EOD Report</button>
+
+  <table id="table"></table>  <script src="script.js"></script></body>
+</html>
+
